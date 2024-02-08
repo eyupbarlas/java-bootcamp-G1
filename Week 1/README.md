@@ -1,9 +1,11 @@
-# Task: Hello World Java Program
+# Homework Template
 
-## Description:
+## Sample Task: Hello World Java Program
+
+# Description:
 Get started with Java programming by creating a simple "Hello, World!" program. This task will introduce you to basic project setup, writing code, and making your first commit.
 
-## Instructions:
+# Instructions:
 
 1. **Fork the Repository:**
    - Fork the Java Bootcamp repository to your GitHub account.
