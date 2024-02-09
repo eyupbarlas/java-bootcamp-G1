@@ -2,6 +2,7 @@ package service;
 
 import data.Task;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -13,7 +14,8 @@ public class TaskManagementSystem {
         System.out.println("1. List Tasks");
         System.out.println("2. Add Task");
         System.out.println("3. Mark Task as Completed");
-        System.out.println("4. Exit");
+        System.out.println("4. Check Overdue Tasks");
+        System.out.println("5. Exit");
         System.out.print("Enter your choice: ");
     }
 
@@ -34,7 +36,9 @@ public class TaskManagementSystem {
         System.out.print("Enter the task description: ");
         String description = scanner.nextLine();
 
-        taskList.add(new Task(description));
+        String dueDate = LocalDateTime.now().toString();
+
+        taskList.add(new Task(description, dueDate));
         System.out.println("Task added successfully!");
     }
 

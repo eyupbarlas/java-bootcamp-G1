@@ -22,6 +22,9 @@ public class Main {
                     markTaskAsCompleted();
                     break;
                 case 4:
+                    checkOverdueTasks();
+                    break;
+                case 5:
                     System.out.println("Exiting Task Management System. Goodbye!");
                     System.exit(0);
                 default:
