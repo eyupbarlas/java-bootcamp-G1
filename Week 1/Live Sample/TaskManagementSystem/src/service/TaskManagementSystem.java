@@ -53,6 +53,7 @@ public class TaskManagementSystem {
             task.setCompleted(true);
             System.out.println("Task marked as completed: " + task.getDescription());
         } else {
+
             System.out.println("Invalid task number. Please try again.");
         }
     }
